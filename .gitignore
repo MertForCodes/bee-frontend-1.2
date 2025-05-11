@@ -1,0 +1,98 @@
+# Node.js ve npm/Yarn
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# React Native �nbellek ve ge�ici dosyalar
+.rpt2_cache/
+*.tsbuildinfo
+*.log
+*.log.*
+*.bak
+*.swp
+
+# Metro Bundler
+.metro/
+
+# Ortam de�i�kenleri
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+ios/*.pbxproj
+ios/*.xcworkspace
+ios/*.xcodeproj
+*.xcuserdatad
+*.xcworkspacedata
+*.xcscheme
+*.DS_Store
+
+# Android
+android/build/
+android/app/build/
+android/.gradle/
+android/.idea/
+android/*.iml
+android/local.properties
+android/gradle/
+android/gradlew
+android/gradlew.bat
+android/*.keystore
+*.apk
+*.ap_
+*.aab
+
+# Expo (e�er Expo kullan�yorsan�z)
+.expo/
+web-build/
+dist/
+
+# Test dosyalar�
+coverage/
+*.testresult
+
+# Edit�r ve IDE dosyalar�
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS dosyalar�
+.DS_Store
+
+# Di�er ge�ici dosyalar
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# Derlenmi� ��kt�lar
+dist/
+build/
+
+# Medya dosyalar�
+*.mp3
+*.mp4
+*.wav
+*.ogg
+*.aac
+*.m4a
+# Medya dosyalar�n�n bulundu�u yayg�n dizinler (�rne�in, assets veya resources)
+assets/*.mp3
+assets/*.mp4
+assets/*.wav
+assets/*.ogg
+resources/*.mp3
+resources/*.mp4
+resources/*.wav
+resources/*.ogg
